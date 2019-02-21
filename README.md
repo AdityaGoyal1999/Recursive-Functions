@@ -1,7 +1,6 @@
 # Recursive-Functions
-# Recursive Functions
 
-<p> Recursion is a little hard technique but yet it is really powerful to use.<p>
+<p> Recursion is a little hard technique and can be intimidating in the beginning yet it is really powerful to use.<p>
 
 <p> The file contains-
 <ul>
