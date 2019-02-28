@@ -95,13 +95,13 @@ def fibonnaci(c: int, a: int = 0, b: int = 1) -> str:
         return str(a)+"->"+ fibonnaci(c-1, b, a + b)
 
 
-def tribonnaci(d: int, a: int = 0, b: int = 1, c: int = 2) -> str:
+def tribonnaci(d: int, a: int = 0, b: int = 1, c: int = 1) -> str:
     """ Returns the tribonnaci series.
 
     >>> tribonnaci(6)
-    '0->1->2->3->6->11'
+    '0->1->1->2->4->7'
     >>> tribonnaci(5)
-    '0->1->2->3->6'
+    '0->1->1->2->4'
     """
     if d <= 3:
         return str(a) + "->" + str(b)+"->" + str(c)
